@@ -1,0 +1,29 @@
+#Conditionals
+
+'''
+a=18
+b=18
+if a<b:
+    print("a is less than b")
+elif a>b:
+    print("a is greater than b")
+else:
+    print("a and b are equal")
+
+
+
+jedimaster=input("Name a great jedi master: ")
+
+if jedimaster.lower =="luke skywalker":
+    print("Luke is a good choice!")
+elif jedimaster == "BB8":
+    print("Hey, genius, BB8 is a DROID!!!!!" )
+
+'''
+
+game_over = False
+
+if game_over:
+    print("The game is over! You lose!")
+else:
+    print("The game is still running!")
