@@ -18,3 +18,4 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+number = float(input("Type a number between -100 and +100"))

@@ -17,24 +17,24 @@ print()
 
 if grade >= 93.00:
     print("Your final grade is:", grade, "(A)")
-if grade >= 90.00 or grade <= 92.99:
+if grade >= 90.00 and grade <= 92.99:
     print("Your final grade is:", grade, "(A-)")
-if grade >= 87.00 or grade <= 89.99:
+if grade >= 87.00 and grade <= 89.99:
     print("Your final grade is:", grade, "(B+)")
-if grade >= 83.00 or grade <= 86.99:
+if grade >= 83.00 and grade <= 86.99:
     print("Your final grade is:", grade, "(B)")
-if grade >= 80.00 or grade <= 82.99:
+if grade >= 80.00 and grade <= 82.99:
     print("Your final grade is:", grade, "(B-)")
-if grade >= 77.00 or grade <= 79.99:
+if grade >= 77.00 and grade <= 79.99:
     print("Your final grade is:", grade, "(C+)")
-if grade >= 73.00 or grade <= 76.99:
+if grade >= 73.00 and grade <= 76.99:
     print("Your final grade is:", grade, "(C)")
-if grade >= 70.00 or grade <= 72.99:
+if grade >= 70.00 and grade <= 72.99:
     print("Your final grade is:", grade, "(C-)")
-if grade >= 67.00 or grade <= 69.99:
+if grade >= 67.00 and grade <= 69.99:
     print("Your final grade is:", grade, "(D+)")
-if grade >= 60.00 or grade <= 66.99:
+if grade >= 60.00 and grade <= 66.99:
     print("Your final grade is:", grade, "(D)")
-if grade >= 0.00 or grade <= 59.99:
+if grade >= 0.00 and grade <= 59.99:
     print("Your final grade is:", grade, "(F)")
     print("Transfer to Johnston!")
