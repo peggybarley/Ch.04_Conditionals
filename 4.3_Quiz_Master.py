@@ -37,7 +37,8 @@ else:
     print("Incorrect! The right answer is: C. A Shirt ")
 print()
 
-q4 = input("I can't be felt, can't be heard or smelt. I lie behind stars and under hills, and empty the empty holes I fill. What am I? \n A. Darkness  \n B.  \n C.  \n D.  \n   ")
+# d
+q4 = input("I can't be felt, can't be heard or smelt. I lie behind stars and under hills, and empty the empty holes I fill. What am I? \n A. Darkness  \n B. A Black hole \n C. Space \n D.  \n   ")
 if q4.lower() == "a" or q4.lower() == "darkness":
     print("Correct!")
     score += 1
@@ -45,7 +46,7 @@ else:
     print("Incorrect! The right answer is:  A. Darkness")
 print()
 
-q5 = input("What is it that when given one, you'll almost always have either two or more, or none? \n A.  \n B.  \n C.  \n D. A choice \n   ")
+q5 = input("What is it that when given one, you'll almost always have either two or more, or none? \n A.  \n B.  \n C. Friends \n D. A choice \n   ")
 if q5.lower() == " " or q5.lower() == " ":
     print("Correct!")
     score += 1
@@ -53,7 +54,7 @@ else:
     print("Incorrect! The right answer is: ")
 print()
 
-q6 = input("I've never been afraid but I've become petrified. I can't make a bird but I can make a bat. I can't live in a house but I would die to have one ? \n A.  \n B.  \n C.  \n D.  \n   ")
+q6 = input("Turn me on my side and I am everything. Cur me in half and im noyhing. What am I? \n A.  \n B.  \n C.  \n D.  \n   ")
 if q6.lower() == " " or q6.lower() == " ":
     print("Correct!")
     score += 1
@@ -61,7 +62,7 @@ else:
     print("Incorrect! The right answer is: ")
 print()
 
-q7 = input("? \n A.  \n B.  \n C.  \n D.  \n   ")
+q7 = input("I am heavy and hard to pick up, but backwards I am not. What am I? \n A. A Stone \n B.  \n C. A Ton \n D.  \n   ")
 if q7.lower() == " " or q7.lower() == " ":
     print("Correct!")
     score += 1
@@ -69,7 +70,7 @@ else:
     print("Incorrect! The right answer is: ")
 print()
 
-q8 = input("? \n A.  \n B.  \n C.  \n D.  \n   ")
+q8 = input(" A red House is made from red bricks. A blue house is made from blur bricks. What is a green house made of? \n A. Wood \n B. Glass \n C.  \n D. Green Bricks \n   ")
 if q8.lower() == " " or q8.lower() == " ":
     print("Correct!")
     score += 1
