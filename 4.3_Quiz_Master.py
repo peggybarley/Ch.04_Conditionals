@@ -61,7 +61,7 @@ print()
 ######
 quiz += 1
 q6 = input("I am heavy and hard to pick up, but backwards I am not. What am I? \n A. A Stone \n B. A container filled with something \n C. A Ton \n D. Anything in zero gravity \n   ")
-if q6.lower() == "c" or q6.lower() == "a ton" or q6.lower() == "ton" :
+if q6.lower() == "c" or q6.lower() == "a ton" or q6.lower() == "ton":
     print("Correct!")
     score += 1
 else:

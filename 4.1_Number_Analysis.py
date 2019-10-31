@@ -18,4 +18,21 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
-number = float(input("Type a number between -100 and +100"))
+
+num = float(input("Type a number! \n  "))
+if num % 2 == 0:
+    print("Test 1: Even")
+else:
+    print("Test 1: Odd")
+
+if num > 0:
+    print("Test 2: Positive")
+elif num < 0:
+    print("Test 2: Negative")
+else:
+    print("Test 2: Zero")
+
+if num >= -100 and num <= 100:
+    print("Test 3: Inclusive")
+else:
+    print("Test 3: Exclusive")
