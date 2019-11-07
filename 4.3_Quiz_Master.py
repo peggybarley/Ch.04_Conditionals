@@ -13,7 +13,7 @@ print()
 print()
 
 quiz += 1
-q1 = input("What goes through a door, but never goes in and never comes out? \n A. Keys \n B. A Doorknob \n C. Air, It's Everywhere \n D. A Keyhole \n  ")
+q1 = input("What goes through a door, but never goes in and never comes out? \n A. Keys \n B. A Doorknob \n C. Air \n D. A Keyhole \n  ")
 if q1.lower() == "a keyhole" or q1.lower() == "d":
     print("Correct!")
     score += 1
@@ -96,24 +96,24 @@ else:
 total = 100*(score/quiz)
 
 if total >= 93.00:
-    print("Your grade is:", total, "(A)")
+    print("Your grade is:", total, "(A) \n Wow, brilliant!")
 if total >= 90.00 and total <= 92.99:
-    print("Your grade is:", total, "(A-)")
+    print("Your grade is:", total, "(A-) \n Wow, brilliant!")
 if total >= 87.00 and total <= 89.99:
-    print("Your grade is:", total, "(B+)")
+    print("Your grade is:", total, "(B+) \n Good Job!")
 if total >= 83.00 and total <= 86.99:
-    print("Your grade is:", total, "(B)")
+    print("Your grade is:", total, "(B) \n Good Job!")
 if total >= 80.00 and total <= 82.99:
-    print("Your grade is:", total, "(B-)")
+    print("Your grade is:", total, "(B-) \n Well done.")
 if total >= 77.00 and total <= 79.99:
-    print("Your grade is:", total, "(C+)")
+    print("Your grade is:", total, "(C+) \n Well done.")
 if total >= 73.00 and total <= 76.99:
-    print("Your grade is:", total, "(C)")
+    print("Your grade is:", total, "(C) \n Not bad.")
 if total >= 70.00 and total <= 72.99:
-    print("Your grade is:", total, "(C-)")
+    print("Your grade is:", total, "(C-) \n Not bad.")
 if total >= 67.00 and total <= 69.99:
-    print("Your grade is:", total, "(D+)")
+    print("Your grade is:", total, "(D+) \n You should brush up on your riddle solving skills...")
 if total >= 60.00 and total <= 66.99:
-    print("Your grade is:", total, "(D)")
+    print("Your grade is:", total, "(D) \n You should brush up on your riddle solving skills... ")
 if total >= 0.00 and total <= 59.99:
-    print("Your grade is:", total, "(F)")
+    print("Your grade is:", total, "(F) \n Wow... just wow. ")
