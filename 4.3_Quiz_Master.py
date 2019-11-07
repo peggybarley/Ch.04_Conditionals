@@ -50,7 +50,7 @@ else:
 print()
 
 quiz += 1
-q5 = input("What is it that when given, you'll almost always have either two or more, or none? \n A. Socks \n B. 2 + x \n C. Friends \n D. A choice \n   ")
+q5 = input("What is it that when given, you'll almost always have either two or more, or none? \n A. Socks \n B. The equation: 2 + x \n C. Friends \n D. A choice \n   ")
 if q5.lower() == "a choice" or q5.lower() == "d":
     print("Correct!")
     score += 1
@@ -58,7 +58,6 @@ else:
     print("Incorrect! The right answer is: D. A choice")
 print()
 
-######
 quiz += 1
 q6 = input("I am heavy and hard to pick up, but backwards I am not. What am I? \n A. A Stone \n B. A container filled with something \n C. A Ton \n D. Anything in zero gravity \n   ")
 if q6.lower() == "c" or q6.lower() == "a ton" or q6.lower() == "ton":
@@ -85,14 +84,14 @@ if q8.lower() == "c" or q8.lower() == "e" or q8.lower() == "the letter e ":
 else:
     print("Incorrect! The right answer is: C. The letter e ")
 
-######
 quiz += 1
-q9 = input("Complete the sequence. 83 \n A. 8 \n B.  \n C. The letter e \n D. = \n   ")
-if q9.lower() == "c" or q9.lower() == "e" or q9.lower() == "the letter e ":
+q9 = input("Complete the sequence. \n 89, 144, 233, 377, ?? \n \n A. 987 \n B. 610 \n C. 754 \n D. 466 \n   ")
+if q9.lower() == "b" or q9.lower() == 610:
     print("Correct!")
     score += 1
 else:
-    print("Incorrect! The right answer is: C. The letter e ")
+    print("Incorrect! The right answer is: B. 610. It is the next number in the Fibonacci Sequence!")
+
 
 total = 100*(score/quiz)
 

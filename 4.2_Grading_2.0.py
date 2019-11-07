@@ -8,8 +8,8 @@ If they fail, tell them to "Transfer to Johnston!"
 print()
 print("Welcome to Peggy's Grade Calculator")
 print()
-sg = float(input("What is your semester grade?"))
-fe = float(input("What is your final exam grade?"))
+sg = float(input("What is your semester grade percentage?"))
+fe = float(input("What is your final exam grade percentage?"))
 ew = float(input("What is your exam worth?"))
 ew = ew/100
 grade = sg*(1-ew) + fe*(ew)
