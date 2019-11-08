@@ -17,7 +17,7 @@ print()
 
 if grade >= 93.00:
     print("Your final grade is:", grade, "(A)")
-if grade >= 90.00 and grade <= 92.99:
+elif grade >= 90.00 and grade <= 92.99:
     print("Your final grade is:", grade, "(A-)")
 if grade >= 87.00 and grade <= 89.99:
     print("Your final grade is:", grade, "(B+)")

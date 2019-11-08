@@ -13,12 +13,12 @@ print()
 print()
 
 quiz += 1
-q1 = input("What goes through a door, but never goes in and never comes out? \n A. Keys \n B. A Doorknob \n C. Air \n D. A Keyhole \n  ")
-if q1.lower() == "a keyhole" or q1.lower() == "d":
+q1 = input("What goes through a door, but never goes in and never comes out? \n A. Keys \n B. Doorknob \n C. Air \n D. Keyhole \n  ")
+if q1.lower() == "keyhole" or q1.lower() == "d":
     print("Correct!")
     score += 1
 else:
-    print("Incorrect! The right answer is: D. A Keyhole")
+    print("Incorrect! The right answer is: D. Keyhole")
 print()
 
 quiz += 1
@@ -31,7 +31,7 @@ else:
 print()
 
 quiz += 1
-q3 = input("What is it that has a neck but no head, and two arms but no hands? \n A. A Clock \n B. A Tripod \n C. A Shirt \n D. A Barbie doll with no hands and head \n  ")
+q3 = input("What is it that has a neck but no head, and two arms but no hands? \n A. Clock \n B. Tripod \n C. Shirt \n D. A Barbie doll with no hands and head \n  ")
 print()
 if q3.lower() == "c" or q3.lower() == "a shirt":
     print("Correct!")
@@ -41,7 +41,7 @@ else:
 print()
 
 quiz += 1
-q4 = input("I can't be felt, can't be heard or smelt. I lie behind stars and under hills, and empty the empty holes I fill. What am I? \n A. Darkness  \n B. A Black hole \n C. Space \n D. A vortex \n   ")
+q4 = input("I can't be felt, can't be heard or smelt. I lie behind stars and under hills, and the empty holes I fill. What am I? \n A. Darkness  \n B. A Black hole \n C. Space \n D. A vortex \n   ")
 if q4.lower() == "a" or q4.lower() == "darkness":
     print("Correct!")
     score += 1
@@ -97,23 +97,23 @@ total = 100*(score/quiz)
 
 if total >= 93.00:
     print("Your grade is:", total, "(A) \n Wow, brilliant!")
-if total >= 90.00 and total <= 92.99:
+elif total >= 90.00:
     print("Your grade is:", total, "(A-) \n Wow, brilliant!")
-if total >= 87.00 and total <= 89.99:
+elif total >= 87.00:
     print("Your grade is:", total, "(B+) \n Good Job!")
-if total >= 83.00 and total <= 86.99:
+elif total >= 83.00:
     print("Your grade is:", total, "(B) \n Good Job!")
-if total >= 80.00 and total <= 82.99:
+elif total >= 80.00:
     print("Your grade is:", total, "(B-) \n Well done.")
-if total >= 77.00 and total <= 79.99:
+elif total >= 77.00:
     print("Your grade is:", total, "(C+) \n Well done.")
-if total >= 73.00 and total <= 76.99:
+elif total >= 73.00:
     print("Your grade is:", total, "(C) \n Not bad.")
-if total >= 70.00 and total <= 72.99:
+elif total >= 70.00:
     print("Your grade is:", total, "(C-) \n Not bad.")
-if total >= 67.00 and total <= 69.99:
+elif total >= 67.00:
     print("Your grade is:", total, "(D+) \n You should brush up on your riddle solving skills...")
-if total >= 60.00 and total <= 66.99:
+elif total >= 60.00:
     print("Your grade is:", total, "(D) \n You should brush up on your riddle solving skills... ")
-if total >= 0.00 and total <= 59.99:
+elif total >= 0.00:
     print("Your grade is:", total, "(F) \n Wow... just wow. ")
