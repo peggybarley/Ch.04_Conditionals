@@ -16,25 +16,25 @@ grade = sg*(1-ew) + fe*(ew)
 print()
 
 if grade >= 93.00:
-    print("Your final grade is:", grade, "(A)")
-elif grade >= 90.00 and grade <= 92.99:
-    print("Your final grade is:", grade, "(A-)")
-if grade >= 87.00 and grade <= 89.99:
-    print("Your final grade is:", grade, "(B+)")
-if grade >= 83.00 and grade <= 86.99:
-    print("Your final grade is:", grade, "(B)")
-if grade >= 80.00 and grade <= 82.99:
-    print("Your final grade is:", grade, "(B-)")
-if grade >= 77.00 and grade <= 79.99:
-    print("Your final grade is:", grade, "(C+)")
-if grade >= 73.00 and grade <= 76.99:
-    print("Your final grade is:", grade, "(C)")
-if grade >= 70.00 and grade <= 72.99:
-    print("Your final grade is:", grade, "(C-)")
-if grade >= 67.00 and grade <= 69.99:
-    print("Your final grade is:", grade, "(D+)")
-if grade >= 60.00 and grade <= 66.99:
-    print("Your final grade is:", grade, "(D)")
-if grade >= 0.00 and grade <= 59.99:
+    print("Your grade is:", total, "(A)")
+elif grade >= 90.00:
+    print("Your grade is:", total, "(A-)")
+elif grade >= 87.00:
+    print("Your grade is:", total, "(B+)")
+elif grade >= 83.00:
+    print("Your grade is:", total, "(B)")
+elif grade >= 80.00:
+    print("Your grade is:", total, "(B-)")
+elif grade >= 77.00:
+    print("Your grade is:", total, "(C+)")
+elif grade >= 73.00:
+    print("Your grade is:", total, "(C)")
+elif grade >= 70.00:
+    print("Your grade is:", total, "(C-)")
+elif grade >= 67.00:
+    print("Your grade is:", grade, "(D+)")
+elif grade >= 60.00:
+    print("Your grade is:", grade, "(D)")
+elif grade >= 0.00:
     print("Your final grade is:", grade, "(F)")
     print("Transfer to Johnston!")
