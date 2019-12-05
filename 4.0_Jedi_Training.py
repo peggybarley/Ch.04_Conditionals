@@ -31,7 +31,7 @@ else:
   # 4. Make the following program work. (4 mistakes)
 
 jedi = str("Name one of the top 3 greatest Jedi.")
-if jedi.lower() == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
+if jedi.lower() == "yoda" or jedi.lower() == "luke skywalker" or jedi.lower() == "obi-wan kenobi":
     print("That is correct!")
 else:
     print("Incorrect!", jedi,"is not one of the top # greatest Jedi's")
@@ -49,16 +49,16 @@ print("C. Droid")
 print()
 
 user_input = input("Choose a character?")
-if user_input.lower() == "a" or "jedi master":
+if user_input.lower() == "a" or user_input.lower() == "jedi master":
     sensitivity = 1000
     print("Sensitivity: ", sensitivity)
-elif user_input.lower() == "b" or "sith lord":
+elif user_input.lower() == "b" or user_input.lower() == "sith lord":
     sensitivity = 900
     print("Sensitivity: ", sensitivity)
-elif user_input.lower() == "c" or "droid":
+elif user_input.lower() == "c" or user_input.lower() == "droid":
     sensitivity = 0
     print("Sensitivity: ", sensitivity)
 else:
     print("Not a choice!")
-    print("Sensitivity: ")
+    print("Sensitivity: 0")
 

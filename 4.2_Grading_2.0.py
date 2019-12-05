@@ -16,21 +16,21 @@ grade = sg*(1-ew) + fe*(ew)
 print()
 
 if grade >= 93.00:
-    print("Your grade is:", total, "(A)")
+    print("Your grade is:", grade, "(A)")
 elif grade >= 90.00:
-    print("Your grade is:", total, "(A-)")
+    print("Your grade is:", grade, "(A-)")
 elif grade >= 87.00:
-    print("Your grade is:", total, "(B+)")
+    print("Your grade is:", grade, "(B+)")
 elif grade >= 83.00:
-    print("Your grade is:", total, "(B)")
+    print("Your grade is:", grade, "(B)")
 elif grade >= 80.00:
-    print("Your grade is:", total, "(B-)")
+    print("Your grade is:", grade, "(B-)")
 elif grade >= 77.00:
-    print("Your grade is:", total, "(C+)")
+    print("Your grade is:", grade, "(C+)")
 elif grade >= 73.00:
-    print("Your grade is:", total, "(C)")
+    print("Your grade is:", grade, "(C)")
 elif grade >= 70.00:
-    print("Your grade is:", total, "(C-)")
+    print("Your grade is:", grade, "(C-)")
 elif grade >= 67.00:
     print("Your grade is:", grade, "(D+)")
 elif grade >= 60.00:
